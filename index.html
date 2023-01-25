@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+    <title> Miles' Fantastical Website </title>
+    <style>
+        body {
+            background: rgb(91, 90, 194);
+            color: rgb(151, 55, 55);
+            padding: 10px;
+            font-family: arial;
+        }
+        #all-content {
+            max-width: 800px;
+            margin: auto;
+        }
+
+        /* navigation menu */
+        nav {
+            background: rgb(11, 63, 50);
+            margin: 0 auto;
+            display: flex;
+            padding: 10px;
+        }
+        h1 {
+            display: flex; 
+            align-items: center;
+            color: rgb(235, 203, 60);
+            flex: 1;
+            margin: 0;
+        }
+        #nav-ul {
+            list-style-image: none;
+            padding: 0 10px;
+        }
+        a {
+            text-decoration: none;
+            color: rgb(16, 166, 235);
+        }
+
+        /* main container area beneath menu */
+        main {
+            background: rgb(223, 172, 34);
+            display: flex;
+        }
+        .sidebar {
+            margin-right: 25px;
+            padding: 10px;
+        }
+        .sidebar-img {
+            width: 200px;
+        }
+        .content {
+            flex: 1;
+            padding: 15px;
+        }
+        #interests {
+            border: 4px rgb(243, 78, 243) ridge;
+            padding: 8px;
+        }
+        h2,h3 {
+            margin: 0px; 
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body> 
+      <!-- All content goes here -->
+         <div id="all-contents"> 
+            <nav> 
+                <h> Miles' Great Website </h>
+                <u1 id="nav-ul">
+                    <li class="nav-li">
+                        <a href="index.html"> Home </a>
+                    </li>
+                    <li class="nav-li">
+                        <a href="portfolio.html">
+                     Portfolio </a>
+                    </li>
+                </u1>
+
+            </nav>
+
+            <main>
+                <!-- Sidebar section --> 
+                <div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZ9ipS5pGjw69Fxorg2VY8GHXnJudOgZhD3w&usqp=CAU">
+                </div>
+                
+                <!-- Content section -->
+                <div>
+                    <h2> Miles Edwards </h2>   
+                    <p> Student at Mandeville High School </p>
+                    <!-- Interests section -->
+                    <div id="interests"> 
+                       <h3>Interests</h3>
+                       <ul>
+                           <li>Thing 1</li>
+                           <li>Thing 2</li>
+                           <li>Thing 3</li> 
+                       </ul>
+                    </div>
+                </div>
+            </main>
+         </div>
+
+    </body>
+</html>
