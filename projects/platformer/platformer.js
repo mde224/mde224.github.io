@@ -30,7 +30,8 @@ $(function () {
     // You must decide the x position, y position, width, and height of the platforms
     // example usage: createPlatform(x,y,width,height)
 
-    
+    createPlatform(500,300,800,20);
+    createPlatform(700,700,200,20);
     
     
     
@@ -41,7 +42,11 @@ $(function () {
     // Your collectable choices are 'database' 'diamond' 'grace' 'kennedi' 'max' and 'steve'; more can be added if you wish
     // example usage: createCollectable(type, x, y, gravity, bounce)
     
-    
+    createCollectable("steve", 500, 300);
+    createCollectable("grace", 500, 300);
+    createCollectable("diamond", 600,200);
+    createCollectable("kennedi", 300,200);
+    createCollectable("max",1000,600,.25,1);
     
     
     
@@ -51,7 +56,9 @@ $(function () {
     // Your wall choices are: 'top' 'left' 'right' and 'bottom'
     // example usage: createCannon(side, position, delay)
 
-
+    createCannon("left",500,1000);
+    createCannon("right",400,800);
+    createCannon("top",300,800,0.5);
 
 
 
