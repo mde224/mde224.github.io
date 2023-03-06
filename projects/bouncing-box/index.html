@@ -29,7 +29,8 @@
 	<div class="box">?</div>
 
 	<script>
-		(function(){
+		(function() {
+
 			'use strict'
 			/* global jQuery */
 
@@ -62,7 +63,7 @@
 			//////////////////////////////////////////////////////////////////
 			
 			// TODO 2 - Variable declarations 
-			
+			var positionX = 0;
 
 			
 			/* 
@@ -71,7 +72,9 @@
 			turn it around! 
 			*/
 			function update() {
-				
+				  /* Your Code to Increase positionX by 10 HERE*/
+				  positionX = positionX + 10
+			moveBoxTo(positionX);
 
 			};
 
@@ -81,8 +84,7 @@
 			the left side of the screen.
 			*/
 			function handleBoxClick() {
-				
-
+			
 
 			};
 		})();
